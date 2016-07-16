@@ -1,8 +1,8 @@
 # Alfred IMDB Workflow
 
-A workflow for Alfred 3.0 that allows you to quick search for a movie and open it in IMDB website.
+A workflow for Alfred 3.0 that allows you to quick search for a movie and open it in IMDB.
 
-The workflow script was built with Node.js and, believe it or not, you need to install [Node](https://nodejs.org/en/) in order to run it.
+The workflow script was built with Node.js and, believe it or not, you need to install [Node](https://nodejs.org/en/) on your machine in order to run it.
 
 ## How to use it
 
