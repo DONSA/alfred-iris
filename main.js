@@ -45,7 +45,7 @@ workflow.setName('imdb');
                 else
                 {
                     item = new Item({
-                        title: '"' + query + '" sleep with the fishes...',
+                        title: '"' + query.replace(/\\/g, '') + '" sleep with the fishes...',
                         valid: true
                     });
                 }
