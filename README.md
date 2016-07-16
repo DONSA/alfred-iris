@@ -8,9 +8,9 @@ The workflow script was built with [Node.js](https://nodejs.org/en/) and, believ
 
 The shortcut to execute the command is: **⇧ + ⌘ + m**.
 
-![Search](http://imgur.com/lBxNd5d)
+![Search](http://i.imgur.com/lBxNd5d.png)
 
-![Open in IMDB](http://imgur.com/rdg7aV0)
+![Open in IMDB](http://i.imgur.com/rdg7aV0.png)
 
 
 About
