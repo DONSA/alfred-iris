@@ -141,7 +141,7 @@ workflow.setName('iris');
             else
             {
                 var item = new Item({
-                    title: '"' + query.replace(/\\/g, '') + '" sleep with the fishes...',
+                    title: 'No subtitles found',
                     valid: true
                 });
 
