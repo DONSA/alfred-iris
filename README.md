@@ -11,11 +11,9 @@ The workflow script was built with [Node.js](https://nodejs.org/en/) and, believ
 The shortcut to search for a movie is: **⇧ + ⌘ + i**.
 Alternatively you can use the keyword: **iris**.
 
-![Search](http://i.imgur.com/rdg7aV0.png)
+![Search](http://i.imgur.com/ZgqmXsH.png)
 
-![Open in IMDB](http://i.imgur.com/lBxNd5d.png)
-
-If you press **alt** and click, you will be able to search for subtitles by the IMDB id.
+The **alt** key allows you to search for subtitles by selected IMDB id.
 
 ### Subtitles
 
