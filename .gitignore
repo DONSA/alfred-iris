@@ -1,1 +1,4 @@
-source/node_modules/
+src/node_modules/
+src/resources/
+*.sublime-project
+*.sublime-workspace

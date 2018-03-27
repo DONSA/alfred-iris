@@ -1,13 +1,39 @@
 {
-  "name": "example-alfred-workflow-nodejs",
-  "main": "main.js",
+  "name": "alfred-iris",
+  "version": "2.2.0",
+  "description": "An Alfred workflow for movie addicts",
+  "main": "iris.js",
   "dependencies": {
-    "alfred-workflow-nodejs": "^2.0.0",
-    "async": "^2.0.1",
+    "alfy": "^0.7.0",
+    "fs": "0.0.1-security",
     "http": "0.0.0",
-    "omdb": "^0.6.1",
-    "opensubtitles-api": "^3.2.0",
+    "jimp": "^0.2.28",
+    "omdb-api-pt": "^2.0.1",
+    "opensubtitles-api": "^4.0.0",
     "path": "^0.12.7",
+    "trakt.tv": "^1.4.2",
     "url": "^0.11.0"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DONSA/iris-alfred-workflow.git"
+  },
+  "keywords": [
+    "alfred",
+    "workflow",
+    "movie",
+    "subtitles"
+  ],
+  "author": "Nuno Lopes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DONSA/iris-alfred-workflow/issues"
+  },
+  "homepage": "https://github.com/DONSA/iris-alfred-workflow#readme"
 }

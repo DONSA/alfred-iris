@@ -21,11 +21,24 @@
 				<false/>
 			</dict>
 		</array>
-		<key>2452D61F-32FC-4342-8A0B-61ECF685D21A</key>
+		<key>1AE91388-6F24-4418-AD1D-A9D899C00AA3</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>918B410B-329A-4A17-9CAF-24B076BC8A3C</string>
+				<string>8ED8726D-C034-4CCB-94F6-B6EF4F892B3F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3AB39613-4373-4D15-A60C-A3F93AD83D4C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>ABBFA058-6CAE-4CA4-ABB7-204EE91516E3</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -64,7 +77,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>2452D61F-32FC-4342-8A0B-61ECF685D21A</string>
+				<string>918B410B-329A-4A17-9CAF-24B076BC8A3C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -74,10 +87,12 @@
 			</dict>
 		</array>
 		<key>918B410B-329A-4A17-9CAF-24B076BC8A3C</key>
+		<array/>
+		<key>ABBFA058-6CAE-4CA4-ABB7-204EE91516E3</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>F121AD28-F51C-4569-95C4-1673141E3256</string>
+				<string>39C58B5D-2FE2-43E1-ADEC-C2EFBE21ACEA</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -90,7 +105,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>8ED8726D-C034-4CCB-94F6-B6EF4F892B3F</string>
+				<string>EEF0C0C8-8C4E-4366-BAA4-FDFC7B84CA0F</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -103,7 +118,27 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>39C58B5D-2FE2-43E1-ADEC-C2EFBE21ACEA</string>
+				<string>3AB39613-4373-4D15-A60C-A3F93AD83D4C</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>Open in IMDB</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>A0CBA34A-C587-4C63-AAFD-28F146F0E224</string>
+				<key>modifiers</key>
+				<integer>131072</integer>
+				<key>modifiersubtext</key>
+				<string>Search in LegendasDivx</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>153DEAE7-3FB0-467E-B4EB-B6F28DC09F3B</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -113,20 +148,20 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>8ED8726D-C034-4CCB-94F6-B6EF4F892B3F</string>
+				<string>1AE91388-6F24-4418-AD1D-A9D899C00AA3</string>
 				<key>modifiers</key>
-				<integer>524288</integer>
+				<integer>262144</integer>
 				<key>modifiersubtext</key>
-				<string>Search on OpenSubtitles</string>
+				<string>Search for subtitles with IMDB id</string>
 				<key>vitoclose</key>
-				<true/>
+				<false/>
 			</dict>
 		</array>
-		<key>F121AD28-F51C-4569-95C4-1673141E3256</key>
+		<key>EEF0C0C8-8C4E-4366-BAA4-FDFC7B84CA0F</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>80692FBC-9953-4690-A45A-545D3C034989</string>
+				<string>8ED8726D-C034-4CCB-94F6-B6EF4F892B3F</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -154,7 +189,7 @@
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>http://www.imdb.com/title/{query}/</string>
+				<string>{query}</string>
 				<key>utf8</key>
 				<true/>
 			</dict>
@@ -168,14 +203,104 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>tkt</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Please wait</string>
+				<key>script</key>
+				<string>source "${HOME}/.zshrc"
+node main.js "trakt" "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Update available: 2.2.0 → 0.2.3. Run `npm install -g Iris`</string>
+				<key>title</key>
+				<string>Trakt</string>
+				<key>type</key>
+				<integer>5</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>3AB39613-4373-4D15-A60C-A3F93AD83D4C</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{var:url}</string>
+				<key>matchcasesensitive</key>
+				<true/>
+				<key>matchmode</key>
+				<integer>1</integer>
+				<key>matchstring</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>ABBFA058-6CAE-4CA4-ABB7-204EE91516E3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://www.legendasdivx.pt/modules.php?name=Downloads&amp;file=jz&amp;imdbid={query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>A0CBA34A-C587-4C63-AAFD-28F146F0E224</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
 				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
 				<key>hotkey</key>
 				<integer>34</integer>
 				<key>hotmod</key>
-				<integer>1179648</integer>
+				<integer>1703936</integer>
 				<key>hotstring</key>
 				<string>I</string>
 				<key>leftcursor</key>
@@ -197,6 +322,10 @@
 			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
@@ -210,17 +339,17 @@
 				<key>queuedelaymode</key>
 				<integer>1</integer>
 				<key>queuemode</key>
-				<integer>1</integer>
+				<integer>2</integer>
 				<key>runningsubtext</key>
 				<string>Searching...</string>
 				<key>script</key>
-				<string>/usr/local/bin/node main.js "search" "{query}"</string>
+				<string>./node_modules/.bin/run-node iris.js "$1"</string>
 				<key>scriptargtype</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string></string>
+				<string>Update available: 2.2.0 → 0.2.3. Run `npm install -g Iris`</string>
 				<key>title</key>
 				<string>Are you talking to me?</string>
 				<key>type</key>
@@ -238,8 +367,98 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>http://www.imdb.com/title/tt{query}/</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>153DEAE7-3FB0-467E-B4EB-B6F28DC09F3B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>variables</key>
+				<dict>
+					<key>OS_SEARCH_TYPE</key>
+					<string>imdb</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>1AE91388-6F24-4418-AD1D-A9D899C00AA3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>31</integer>
+				<key>hotmod</key>
+				<integer>1703936</integer>
+				<key>hotstring</key>
+				<string>O</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>AD83F921-3407-4FC6-A98C-FB9B0001239D</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>variables</key>
+				<dict>
+					<key>OS_SEARCH_TYPE</key>
+					<string>text</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>EEF0C0C8-8C4E-4366-BAA4-FDFC7B84CA0F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
@@ -257,13 +476,13 @@
 				<key>runningsubtext</key>
 				<string>Searching...</string>
 				<key>script</key>
-				<string>/usr/local/bin/node main.js "subtitles" "{query}"</string>
+				<string>./node_modules/.bin/run-node os.js "$1"</string>
 				<key>scriptargtype</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string></string>
+				<string>Update available: 2.2.0 → 0.2.3. Run `npm install -g Iris`</string>
 				<key>title</key>
 				<string>Search for subtitles</string>
 				<key>type</key>
@@ -281,41 +500,16 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>adduuid</key>
-				<false/>
-				<key>allowemptyfiles</key>
-				<false/>
-				<key>createintermediatefolders</key>
-				<true/>
-				<key>filename</key>
-				<string>{var:path}/{var:name}.srt</string>
-				<key>filetext</key>
-				<string>{var:content}</string>
-				<key>relativepathmode</key>
-				<integer>0</integer>
-				<key>type</key>
-				<integer>1</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.writefile</string>
-			<key>uid</key>
-			<string>F121AD28-F51C-4569-95C4-1673141E3256</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
 				<integer>0</integer>
 				<key>script</key>
-				<string>/usr/local/bin/node main.js "download" "{query}"</string>
+				<string>./node_modules/.bin/run-node download.js "$1"</string>
 				<key>scriptargtype</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>scriptfile</key>
-				<string></string>
+				<string>download.js</string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -334,6 +528,7 @@
 				<key>filetypes</key>
 				<array>
 					<string>org.videolan.mkv</string>
+					<string>public.avi</string>
 					<string>public.mpeg-4</string>
 				</array>
 				<key>name</key>
@@ -347,22 +542,14 @@
 			<integer>1</integer>
 		</dict>
 		<dict>
-			<key>type</key>
-			<string>alfred.workflow.action.revealfile</string>
-			<key>uid</key>
-			<string>80692FBC-9953-4690-A45A-545D3C034989</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
 				<string>{query}</string>
 				<key>variables</key>
 				<dict>
-					<key>type</key>
-					<string>path</string>
+					<key>OS_SEARCH_TYPE</key>
+					<string>file</string>
 				</dict>
 			</dict>
 			<key>type</key>
@@ -372,139 +559,123 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>{query}</string>
-				<key>variables</key>
-				<dict>
-					<key>name</key>
-					<string>{var:name}</string>
-					<key>path</key>
-					<string>{var:path}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>2452D61F-32FC-4342-8A0B-61ECF685D21A</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>hotkey</key>
-				<integer>31</integer>
-				<key>hotmod</key>
-				<integer>1179648</integer>
-				<key>hotstring</key>
-				<string>O</string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>AD83F921-3407-4FC6-A98C-FB9B0001239D</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
 	</array>
 	<key>readme</key>
-	<string>Add logo with better resolution
-Check if movie exists</string>
+	<string>Alfred workflow for movie addicts.</string>
 	<key>uidata</key>
 	<dict>
-		<key>1965C179-CB70-45EE-BC42-D44FB356D4C5</key>
-		<dict>
-			<key>xpos</key>
-			<integer>40</integer>
-			<key>ypos</key>
-			<integer>240</integer>
-		</dict>
-		<key>2452D61F-32FC-4342-8A0B-61ECF685D21A</key>
+		<key>153DEAE7-3FB0-467E-B4EB-B6F28DC09F3B</key>
 		<dict>
 			<key>xpos</key>
 			<integer>590</integer>
 			<key>ypos</key>
-			<integer>270</integer>
+			<integer>470</integer>
+		</dict>
+		<key>1965C179-CB70-45EE-BC42-D44FB356D4C5</key>
+		<dict>
+			<key>xpos</key>
+			<integer>220</integer>
+			<key>ypos</key>
+			<integer>780</integer>
+		</dict>
+		<key>1AE91388-6F24-4418-AD1D-A9D899C00AA3</key>
+		<dict>
+			<key>xpos</key>
+			<integer>440</integer>
+			<key>ypos</key>
+			<integer>580</integer>
 		</dict>
 		<key>39C58B5D-2FE2-43E1-ADEC-C2EFBE21ACEA</key>
 		<dict>
 			<key>xpos</key>
-			<integer>430</integer>
+			<integer>820</integer>
 			<key>ypos</key>
-			<integer>100</integer>
+			<integer>130</integer>
+		</dict>
+		<key>3AB39613-4373-4D15-A60C-A3F93AD83D4C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>590</integer>
+			<key>ypos</key>
+			<integer>130</integer>
 		</dict>
 		<key>4ADBE19C-4F95-4314-ABAF-A5EA3D4319BB</key>
 		<dict>
 			<key>xpos</key>
-			<integer>40</integer>
+			<integer>30</integer>
 			<key>ypos</key>
-			<integer>100</integer>
+			<integer>410</integer>
 		</dict>
 		<key>566B2CFD-80D3-4532-83B5-0F3FA5F3FDA2</key>
 		<dict>
 			<key>xpos</key>
-			<integer>240</integer>
+			<integer>440</integer>
 			<key>ypos</key>
-			<integer>270</integer>
-		</dict>
-		<key>80692FBC-9953-4690-A45A-545D3C034989</key>
-		<dict>
-			<key>xpos</key>
-			<integer>980</integer>
-			<key>ypos</key>
-			<integer>240</integer>
+			<integer>810</integer>
 		</dict>
 		<key>8ED8726D-C034-4CCB-94F6-B6EF4F892B3F</key>
 		<dict>
 			<key>xpos</key>
-			<integer>430</integer>
+			<integer>590</integer>
 			<key>ypos</key>
-			<integer>240</integer>
+			<integer>740</integer>
 		</dict>
 		<key>918B410B-329A-4A17-9CAF-24B076BC8A3C</key>
 		<dict>
 			<key>xpos</key>
-			<integer>660</integer>
+			<integer>820</integer>
 			<key>ypos</key>
-			<integer>240</integer>
+			<integer>740</integer>
+		</dict>
+		<key>A0CBA34A-C587-4C63-AAFD-28F146F0E224</key>
+		<dict>
+			<key>xpos</key>
+			<integer>590</integer>
+			<key>ypos</key>
+			<integer>350</integer>
+		</dict>
+		<key>ABBFA058-6CAE-4CA4-ABB7-204EE91516E3</key>
+		<dict>
+			<key>xpos</key>
+			<integer>750</integer>
+			<key>ypos</key>
+			<integer>160</integer>
 		</dict>
 		<key>AD83F921-3407-4FC6-A98C-FB9B0001239D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>40</integer>
+			<integer>220</integer>
 			<key>ypos</key>
-			<integer>380</integer>
+			<integer>660</integer>
 		</dict>
 		<key>B06EFA00-BD47-48B9-BF13-A73052018A79</key>
 		<dict>
 			<key>xpos</key>
-			<integer>200</integer>
+			<integer>220</integer>
 			<key>ypos</key>
-			<integer>100</integer>
+			<integer>410</integer>
 		</dict>
-		<key>F121AD28-F51C-4569-95C4-1673141E3256</key>
+		<key>EEF0C0C8-8C4E-4366-BAA4-FDFC7B84CA0F</key>
 		<dict>
 			<key>xpos</key>
-			<integer>820</integer>
+			<integer>440</integer>
 			<key>ypos</key>
-			<integer>240</integer>
+			<integer>690</integer>
 		</dict>
 	</dict>
+	<key>variables</key>
+	<dict>
+		<key>DOWNLOAD_PATH</key>
+		<string>Downloads</string>
+		<key>OMDB_API_KEY</key>
+		<string>6364c8f4</string>
+		<key>OS_LANGUAGES</key>
+		<string>pt en</string>
+		<key>OS_USERAGENT</key>
+		<string>Alfred OpenSubtitles</string>
+	</dict>
 	<key>version</key>
-	<string>2.0</string>
+	<string>2.2.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/DONSA</string>
 </dict>
