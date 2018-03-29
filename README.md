@@ -6,6 +6,7 @@ This workflow allows you to quick search for a [movie](http://www.omdbapi.com/) 
 - Import **Iris.alfredworkflow**;
 - Generate a [OMDb API Key](http://www.omdbapi.com/apikey.aspx) and add it to the environment variable **OMDB_API_KEY**;
 - Specify the languages by which you want to search for subtitles by filling environment variable **OS_LANGUAGES** with a list (in order of preference) of language codes (e.g. `en pt fr`).
+
 ![Search](https://i.imgur.com/yzTtYxT.png)
 
 
