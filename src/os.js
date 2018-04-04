@@ -58,7 +58,7 @@ OpenSubtitles.search(qs).then(subtitles => {
                 subtitle: _getSubtitle(sub),
                 arg: JSON.stringify({
                     link: sub.url,
-                    path: `${filePath}/${fileName}.str`
+                    path: `${filePath}/${fileName}.srt`
                 }),
                 icon: {
                     path: './icons/download.png'
